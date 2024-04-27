@@ -33,7 +33,7 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./web/
+          source: ./
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -53,7 +53,7 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages  # Change to your target branch for GitHub Pages deployment
-          FOLDER: _site  # Change to the folder containing your static site files
+          FOLDER: web  # Change to the folder containing your static site files
     # Add a new step to run the HTML file in the 'web' folder
       # - name: Run ClairCoast HTML file
       #   run: |
