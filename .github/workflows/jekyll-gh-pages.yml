@@ -48,8 +48,7 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        # uses: actions/deploy-pages@v4
-        uses: JamesIves/github-pages-deploy-action@4.1.5
+        uses: actions/deploy-pages@v4
         with:
           cname: CNAME
     # Add a new step to run the HTML file in the 'web' folder
