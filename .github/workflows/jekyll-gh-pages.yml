@@ -1,5 +1,5 @@
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: Deploy Jekyll with GitHub Pages dependencies preinstalled
+name: Deploy Jekyll with GitHub Pages dependencies preinstalled for Clair Coast
 
 on:
   # Runs on pushes targeting the default branch
@@ -49,3 +49,8 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+    # Add a new step to run the HTML file in the 'web' folder
+      - name: Run ClairCoast HTML file
+        run: |
+          cd web
+          open ClairCoast.html   # This command will open the HTML file in the default browser
