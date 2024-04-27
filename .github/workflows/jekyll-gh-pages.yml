@@ -51,9 +51,9 @@ jobs:
         uses: actions/deploy-pages@v4
         with:
           cname: CNAME
-    # Add a new step to run the HTML file in the 'web' folder
-      - name: Run ClairCoast HTML file
-        run: |
-          cd /
-          cd web
-          open ClairCoast.html   # This command will open the HTML file in the default browser
+    # # Add a new step to run the HTML file in the 'web' folder
+    #   - name: Run ClairCoast HTML file
+    #     run: |
+    #       cd /
+    #       cd web
+    #       open ClairCoast.html   # This command will open the HTML file in the default browser
