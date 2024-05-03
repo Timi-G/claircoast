@@ -633,6 +633,9 @@ video {
 .left-\[594px\] {
   left: 594px;
 }
+.left-\[570px\] {
+  left: 570px;
+}
 .right-\[712px\] {
   right: 712px;
 }
@@ -1753,6 +1756,9 @@ video {
 .flex-col {
   flex-direction: column;
 }
+.flex-row {
+  flex-direction: row;
+}
 .items-center {
   align-items: center;
 }
@@ -1930,8 +1936,17 @@ video {
 .text-\[60px\] {
   font-size: 60px;
 }
+.text-\[50px\] {
+  font-size: 50px;
+}
+.text-\[40px\] {
+  font-size: 40px;
+}
 .text-\[30px\] {
   font-size: 30px;
+}
+.text-\[25px\] {
+  font-size: 25px;
 }
 .text-2xl {
   font-size: 1.5rem;
