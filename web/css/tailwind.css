@@ -1038,11 +1038,29 @@ video {
 .bottom-\[4980px\] {
   bottom: 4980px;
 }
+.left-\[5\%\] {
+  left: 5%;
+}
+.left-\[10\%\] {
+  left: 10%;
+}
 .left-\[20\%\] {
   left: 20%;
 }
 .left-\[30\%\] {
   left: 30%;
+}
+.right-\[5\%\] {
+  right: 5%;
+}
+.right-\[10\%\] {
+  right: 10%;
+}
+.right-\[20\%\] {
+  right: 20%;
+}
+.right-\[30\%\] {
+  right: 30%;
 }
 .mx-\[437px\] {
   margin-left: 437px;
