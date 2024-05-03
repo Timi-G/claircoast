@@ -477,6 +477,9 @@ video {
 .relative {
   position: relative;
 }
+.fixed {
+  position: fixed;
+}
 .left-\[708px\] {
   left: 708px;
 }
