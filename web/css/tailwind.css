@@ -584,6 +584,9 @@ video {
 .top-\[47px\] {
   top: 47px;
 }
+.top-\[10px\] {
+  top: 10px;
+}
 .bottom-\[708px\] {
   bottom: 708px;
 }
@@ -857,6 +860,9 @@ video {
 .bottom-\[696px\] {
   bottom: 696px;
 }
+.bottom-\[690px\] {
+  bottom: 690px;
+}
 .left-3 {
   left: 0.75rem;
 }
@@ -1076,6 +1082,18 @@ video {
 .left-\[75\%\] {
   left: 75%;
 }
+.left-\[calc\(50\%\-385px\)\] {
+  left: calc(50% - 385px);
+  }
+.left-\[calc\(50\%\+100px\)\] {
+  left: calc(50% + 100px);
+  } 
+.left-\[calc\(50\%\+110px\)\] {
+  left: calc(50% + 110px);
+  }
+.left-\[calc\(50\%\+115px\)\] {
+  left: calc(50% + 115px);
+  }  
 .right-\[5\%\] {
   right: 5%;
 }
