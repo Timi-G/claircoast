@@ -16,6 +16,7 @@
     <script type="text/javascript" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="text/javascript" src="https://unpkg.com/sticky-js@1.3.0/dist/sticky.min.js"></script>
     <script type="text/javascript" src="https://unpkg.com/headroom.js@0.12.0/dist/headroom.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/glide.js"></script>
 
 
 
@@ -23,10 +24,61 @@
 
 <body class="flex-column">
     <div id="home" class="clair-coast flex flex-col bg-white w-[100%] h-[5713px] overflow-hidden relative">
-        <div class="flex flex-col bg-[image:var(--src)] bg-[center_center] bg-100% 100% bg-no-repeat w-6 h-6 absolute left-[708px] right-[708px] top-[2895px] bottom-[2794px]" style="--src:url(../assets/53525c732e87b7a92dc802db29db4158.png)"></div>
-        <div class="flex flex-col bg-[image:var(--src)] bg-[center_center] bg-100% 100% bg-no-repeat bg-white w-[100%] h-[800px] overflow-hidden absolute left-0 right-0 justify-center top-0 bottom-[4913px]" style="--src:url(../assets/934edf0f1f6e6705b3c0f4da13cd39ec.png)">
-            <img class="w-[89px] h-[89px] absolute left-[1314px] right-[37px] top-[117px] bottom-[594px]" src="./assets/ac97ea3159637a01d61a2752d43a184f.png" alt="alt text" />
-            <div class="w-[100%] h-[304px] flex flex-col items-center gap-y-6 absolute left-[5%] right-[5%] top-[206px] bottom-[290px]">
+        <div class="flex flex-col bg-[image:var(--src)] bg-[center_center] bg-100% 100% bg-no-repeat w-6 h-6 absolute left-[708px] right-[708px] top-[2895px] bottom-[2794px] fixed" style="--src:url(../assets/53525c732e87b7a92dc802db29db4158.png)"></div>
+        <div class="flex flex-col glide-02 bg-[image:var(--src)] bg-[center_center] bg-100% 100% bg-no-repeat bg-white w-[100%] h-[800px] overflow-hidden absolute left-0 right-0 items-center justify-center top-0 bottom-[4913px]">
+            <!-- Component: Slider with indicators inside -->
+            <div class="relative w-[100%] glide-02 top-0">
+                <!-- Slides -->
+                <div class="overflow-hidden rounded-[18px]" data-glide-el="track">
+                    <div class="relative w-[100%] overflow-hidden p-0 whitespace-no-wrap flex flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform]">
+                        <div><!-- Repeat this div for each slide -->
+                            <div class="w-[100%] flex-shrink-0 relative">
+                                <img class="w-[100%] h-auto" src="./assets/934edf0f1f6e6705b3c0f4da13cd39ec.png" alt="Image 1">
+                            </div>
+                        </div>
+                        <div><!-- Repeat this div for each slide -->
+                            <div class="w-[100%] flex-shrink-0 relative">
+                                <img class="w-[100%] h-auto" src="./assets/Hero_2.png" alt="Image 2">
+                            </div>
+                        </div>
+                        <div><!-- Repeat this div for each slide -->
+                            <div class="w-[100%] flex-shrink-0 relative">
+                                <img class="w-[100%] h-auto" src="./assets/Hero_3.png" alt="Image 3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Indicators -->
+                <!-- <div class="absolute bottom-0 flex items-center justify-center w-full gap-2"
+                  data-glide-el="controls[nav]">
+                  <button class="p-4 group" data-glide-dir="=0" aria-label="goto slide 1"><span
+                      class="block w-2 h-2 transition-colors duration-300 rounded-full ring-1 ring-slate-700 bg-white/20 focus:outline-none"></span></button>
+                  <button class="p-4 group" data-glide-dir="=1" aria-label="goto slide 2"><span
+                      class="block w-2 h-2 transition-colors duration-300 rounded-full ring-1 ring-slate-700 bg-white/20 focus:outline-none"></span></button>
+                  <button class="p-4 group" data-glide-dir="=2" aria-label="goto slide 3"><span
+                      class="block w-2 h-2 transition-colors duration-300 rounded-full ring-1 ring-slate-700 bg-white/20 focus:outline-none"></span></button>
+                </div> -->
+            </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/glide.js"></script>
+  
+            <script>
+                var glide02 = new Glide('.glide-02', {
+                    type: 'slider',
+                    focusAt: 'center',
+                    perView: 1,
+                    autoplay: 3500,
+                    animationDuration: 700,
+                    gap: 0,
+                    classes: {
+                    activeNav: '[&>*]:bg-slate-700',
+                    },
+
+                });
+
+                glide02.mount();
+            </script>
+            <img class="w-[89px] h-[89px] absolute right-40 top-[117px] bottom-[594px]" src="./assets/ac97ea3159637a01d61a2752d43a184f.png" alt="alt text" />
+            <div class="w-[100%] h-[304px] flex flex-col items-center gap-y-6 absolute top-[206px] bottom-[290px]">
                 <h1 class="flex items-center justify-center font-bold text-[50px] leading-[1.33] font-Lato text-white text-center tracking-[-1.2px] w-[1120px] h-40">
                     We offer high-quality  study abroad services to destinations like United Kingdom, Canada, Australia, United State of America &amp; Europe.
                 </h1>
@@ -58,10 +110,13 @@
             <img class="w-[52px] h-14 absolute left-[131px] right-[1220px] top-10 bottom-[704px]" src="./assets/Claircoast_New_Logo-removebg.png" alt="alt text" />
             <h4 class="font-bold text-[19.600000381469727px] leading-[1.14] font-Lato text-white w-[142px] h-[45px] absolute left-[194px] right-[1104px] top-[47px] bottom-[708px]">
                 ClairCoast<br />Services Ltd
-            </h4>
-        </div>
+            </h4>          
+        </div>       
+        <!-- End Slider with indicators inside -->
+        <!-- <div class="flex flex-col bg-[image:var(--src)] bg-[center_center] bg-100% 100% bg-no-repeat bg-white w-[100%] h-[800px] overflow-hidden absolute left-0 right-0 justify-center top-0 bottom-[4913px]" style="--src:url(../assets/934edf0f1f6e6705b3c0f4da13cd39ec.png)"> -->
+        <!-- </div> -->
         <div id="destinations" class="bg-white w-[100%] h-[958px] absolute left-0 right-0 top-[800px] bottom-[3955px]"></div>
-        <div class="w-[1200px] h-[718px] flex flex-col items-center gap-y-[120px] absolute left-[120px] right-[120px] top-[920px] bottom-[4075px]">
+        <div class="w-[100%] h-[718px] flex flex-col items-center gap-y-[120px] absolute left-[120px] right-[120px] top-[920px] bottom-[4075px]">
             <div class="w-[100%] h-[346px] flex flex-col items-center gap-y-10">
                 <div class="w-[326px] h-8 flex flex-col overflow-hidden mx-[437px]">
                     <h2 class="flex justify-center font-bold text-2xl font-Inter text-gray-900 text-center w-[326px] h-8">
@@ -108,7 +163,7 @@
                 </div>
             </div>
             <div class="w-[100%] h-[252px] flex flex-col items-center gap-y-10 mx-10">
-                <div class="w-[718px] h-8 flex flex-col items-center overflow-hidden mx-[201px]">
+                <div class="w-[50%] h-8 flex flex-col items-center overflow-hidden mx-[201px]">
                     <h2 class="flex justify-center font-bold text-2xl font-Inter text-gray-900 text-center tracking-[-0.1px] w-[713px] h-8 mx-[2.5px]">
                         Over 350 worldwide educational institutions are our partners
                     </h2>
@@ -143,9 +198,9 @@
         </div>
         <img class="w-[134px] h-[106px] absolute left-[594px] right-[712px] top-[2278px] bottom-[3329px]" src="./assets/1f5c66ffdda1afb806e4e3813ba99906.png" alt="alt text" /><img class="rounded-[15px] w-60 h-[400px] absolute left-[440px] right-[760px] top-[1935px] bottom-[3378px]" src="./assets/6c3a3c0c1a9a36cd7483c2958db92cf2.png" alt="alt text" /><img class="rounded-[15px] w-60 h-[296px] absolute left-40 right-[1040px] top-[1834px] bottom-[3583px]" src="./assets/4cc907609ee679b0bdead2ef4410c112.png" alt="alt text" /><img class="rounded-[15px] w-60 h-[296px] absolute left-40 right-[1040px] top-[2184px] bottom-[3233px]" src="./assets/d9edff21b1a19560ddd61fbe26b83119.png" alt="alt text" /><img class="w-[43px] h-11 absolute left-[928px] right-[469px] top-[1913px] bottom-[3756px]" src="./assets/c84a13bff78a93fd3c0b91c256f0b21f.png" alt="alt text" />
         <div class="bg-[rgb(255,240,240)] w-[1440px] h-[321px] flex flex-col overflow-hidden absolute left-0 right-0 top-[2558px] bottom-[2834px]">
-            <div class="flex flex-col w-[1440px] h-[321px] relative">
+            <div class="flex flex-col w-[100%] h-[321px] relative">
                 <div class="w-[100%] h-[321px] flex flex-col relative">
-                    <div class="flex flex-col w-[1440px] h-[321px]">
+                    <div class="flex flex-col w-[100%] h-[321px]">
                         <div class="flex flex-col bg-[image:var(--src)] bg-[center_center] bg-100% 100% bg-no-repeat w-[1440px] h-[321px]" style="--src:url(../assets/a489acb90c57763db3d4098b12bd934b.png)"></div>
                     </div>
                 </div>
@@ -193,8 +248,8 @@
                 </div>
             </div>
         </div>
-        <div id="services" class="bg-white w-[1440px] h-[752px] absolute left-0 right-0 top-[2879px] bottom-[2082px]"></div>
-        <div class="w-[1124px] h-[344px] flex items-center gap-x-6 absolute left-[159px] right-[157px] top-[3167px] bottom-[2202px]">
+        <div id="services" class="bg-white w-[100%] h-[752px] absolute left-0 right-0 top-[2879px] bottom-[2082px]"></div>
+        <div class="w-[100%] h-[344px] flex items-center gap-x-6 absolute left-[159px] right-[157px] top-[3167px] bottom-[2202px]">
             <div class="bg-white rounded-lg w-[263px] h-[344px] shadow-[0px_4px_8px_0px_rgba(0,0,0,0.098)] pt-4 pr-4 pb-4 pl-4 flex flex-col overflow-hidden">
                 <img class="rounded w-[231px] h-[120px]" src="./assets/b2e1bbed006aa6bf87c7ae84be92afd2.png" alt="alt text" />
                 <div class="w-[231px] h-32 flex flex-col gap-y-2 mt-4 mb-12">
@@ -248,7 +303,7 @@
             OUR SERVICES
         </h2>
         <img class="w-[51px] h-[51px] absolute left-[598px] right-[791px] top-[2961px] bottom-[2701px]" src="./assets/420b5dd05192f4fad6b6cb0243e6ca54.png" alt="alt text" />
-        <div class="bg-[rgb(255,240,240)] w-[1440px] h-[800px] absolute left-0 right-0 top-[3631px] bottom-[1282px]"></div>
+        <div class="bg-[rgb(255,240,240)] w-[100%] h-[800px] absolute left-0 right-0 top-[3631px] bottom-[1282px]"></div>
         <div class="w-[1119px] h-[282px] flex items-center gap-x-6 absolute left-[161px] right-40 top-[3967px] bottom-[1464px]">
             <div class="w-[357px] h-[282px] flex flex-col items-center gap-y-5">
                 <div class="w-[357px] h-[214px] flex flex-col items-center">
@@ -330,7 +385,7 @@
             WHAT OUR CLIENTS ARE SAYING
         </h2>
         <img class="w-[43px] h-11 absolute left-[902px] right-[495px] top-[3723px] bottom-[1946px]" src="./assets/c84a13bff78a93fd3c0b91c256f0b21f.png" alt="alt text" />
-        <div id="contact" class="bg-white w-[1440px] h-[946px] absolute left-0 right-0 top-[4431px] bottom-[336px]"></div>
+        <div id="contact" class="bg-white w-[100%] h-[946px] absolute left-0 right-0 top-[4431px] bottom-[336px]"></div>
         <div class="flex flex-col w-[576px] h-[800px] absolute left-40 right-[704px] top-[4504px] bottom-[409px]">
             <form>
                 <div class="bg-white w-[576px] h-[800px] shadow-[0px_0px_2px_0px_rgba(0,0,0,0.156)] flex flex-col items-center relative">
@@ -511,7 +566,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-row w-[90%] h-8 absolute left-[30%] top-0 bottom-[5681px] gap-x-2 pt-3">
+        <div class="flex flex-row w-[90%] h-8 absolute left-[20%] top-0 bottom-[5681px] gap-x-2 pt-3">
             <div class="flex flex-row h-7 top-1 bottom-1 gap-x-2 w-[100%]">
                 <a href="tel:+2349035555139"><img class="w-7 h-7 top-0 bottom-0" src="./assets/34a20f373cbb0df197a2627b64bfaed7.png" alt="alt text" /></a>
                 <div class="font-normal text-[18px] leading-[1.14] font-Lato text-white w-[150%] h-4 top-1 bottom-1">
