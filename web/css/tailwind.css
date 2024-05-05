@@ -509,6 +509,9 @@ video {
 .top-0 {
   top: 0px;
 }
+.top-\[1px\] {
+  top: 1px;
+}
 .bottom-\[4913px\] {
   bottom: 4913px;
 }
@@ -1046,8 +1049,14 @@ video {
 .top-\[654px\] {
   top: 654px;
 }
+.top-\[440px\] {
+  top: 440px;
+}
 .bottom-\[4980px\] {
   bottom: 4980px;
+}
+.left-\[2.\5\%\] {
+  left: 2.5%;
 }
 .left-\[5\%\] {
   left: 5%;
