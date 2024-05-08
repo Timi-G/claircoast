@@ -167,6 +167,52 @@ code {
     .md\:hide {
         display: none;
     }
+
+    .md\:text-sm {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+    }
+
+    .md\:text-xs {
+        font-size: 0.75rem;
+        line-height: 1rem;
+    }
+
+    .md\:size-1 {
+        width: 0.25rem;
+        height: 0.25rem;
+    }
+
+    .md\:size-3 {
+        width: 1.0rem;
+        height: 0.75rem;
+    }
+    
+    .md\:size-5 {
+        width: 1.5rem;
+        height: 1.25rem;
+    }
+    
+    .md\:size-1\/2 {
+        width: 50%;
+        height: 50%;
+    }
+
+    .md\:left-0 {
+        left: 0px;
+      }
+
+    .md\:left-\[2.\5\%\] {
+    left: 2.5%;
+    }
+    
+    .md\:gap-x-2 {
+        column-gap: 0.5rem;
+      }
+    
+    .md\:gap-y-2 {
+    row-gap: 0.5rem;
+    }
 }
 
 @media (max-width: 767px) {
@@ -178,6 +224,30 @@ code {
     .sm\:hide {
         display: none;
     }
+
+    .sm\:flex-row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sm\:text-sm {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+    }
+
+    .sm\:text-xs {
+        font-size: 0.75rem;
+        line-height: 1rem;
+    }
+    .sm\:size-1 {
+        width: 0.25rem;
+        height: 0.25rem;
+    }
+
+    .sm\:left-\[2.\5\%\] {
+        left: 2.5%;
+      }
+    
 }
 
 @media (max-width: 575px) {
