@@ -588,6 +588,27 @@ video {
 .top-10 {
   top: 2.5rem;
 }
+.top-20 {
+  top: 5rem;
+}
+.top-25 {
+  top: 7.5rem;
+}
+.top-50 {
+  top: 15rem;
+}
+.top-70 {
+  top: 20rem;
+}
+.top-90 {
+  top: 25rem;
+}
+.top-110 {
+  top: 30rem;
+}
+.top-130 {
+  top: 35rem;
+}
 .bottom-\[704px\] {
   bottom: 704px;
 }
@@ -986,6 +1007,9 @@ video {
 }
 .top-\[148px\] {
   top: 148px;
+}
+.top-\[135px\] {
+  top: 135px;
 }
 .bottom-1 {
   bottom: 0.25rem;
