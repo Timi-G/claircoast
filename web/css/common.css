@@ -176,6 +176,26 @@ code {
     .xxl\:text-xs {
         font-size: 1rem;
     }
+
+    .xxl\:gap-x-6 {
+        -moz-column-gap: 1.5rem;
+        column-gap: 1.5rem;
+    }
+
+    .xxl\:gap-x-10 {
+        -moz-column-gap: 2.5rem;
+        column-gap: 2.5rem;
+    }
+
+    .xxl\:gap-y-6 {
+        -moz-row-gap: 1.5rem;
+        row-gap: 1.5rem;
+    }
+
+    .xxl\:gap-y-10 {
+        -moz-row-gap: 2.5rem;
+        row-gap: 2.5rem;
+    }
 }
 
 @media (max-width: 1399px) {
