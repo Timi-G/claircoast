@@ -125,7 +125,7 @@ code {
     }
 
     .xxxl\:study-destinations {
-        flex: 0 0 25%
+        flex: 0 0 20%
     }
 
     .xxxl\:left-\[5\%\] {
@@ -175,6 +175,16 @@ code {
         column-gap: 2.5rem;
     }
 
+    .xxxl\:gap-x-18 {
+        -moz-column-gap: 4.5rem;
+        column-gap: 4.5rem;
+    }
+
+    .xxxl\:gap-x-36 {
+        -moz-column-gap: 9rem;
+        column-gap: 9rem;
+    }
+
     .xxxl\:gap-y-6 {
         -moz-row-gap: 1.5rem;
         row-gap: 1.5rem;
@@ -197,7 +207,7 @@ code {
     }
 
     .xxl\:study-destinations {
-        flex: 0 0 25%
+        flex: 0 0 20%
     }
 
     .xxl\:left-\[5\%\] {
@@ -246,6 +256,16 @@ code {
         column-gap: 2.5rem;
     }
 
+    .xxl\:gap-x-18 {
+        -moz-column-gap: 4.5rem;
+        column-gap: 4.5rem;
+    }
+
+    .xxl\:gap-x-36 {
+        -moz-column-gap: 9rem;
+        column-gap: 9rem;
+    }
+
     .xxl\:gap-y-6 {
         -moz-row-gap: 1.5rem;
         row-gap: 1.5rem;
@@ -268,7 +288,7 @@ code {
     }
 
     .xl\:study-destinations {
-        flex: 0 0 25%
+        flex: 0 0 20%
     }
 
     .xl\:left-\[5\%\] {
@@ -326,6 +346,16 @@ code {
         column-gap: 2.5rem;
     }
 
+    .xl\:gap-x-18 {
+        -moz-column-gap: 4.5rem;
+        column-gap: 4.5rem;
+    }
+
+    .xl\:gap-x-36 {
+        -moz-column-gap: 9rem;
+        column-gap: 9rem;
+    }
+
     .xl\:gap-y-6 {
         -moz-row-gap: 1.5rem;
         row-gap: 1.5rem;
@@ -348,7 +378,7 @@ code {
     }
 
     .lg\:study-destinations {
-        flex: 0 0 25%
+        flex: 0 0 20%
     }
 
     .lg\:left-\[5\%\] {
@@ -414,6 +444,16 @@ code {
     .lg\:gap-x-10 {
         -moz-column-gap: 2.5rem;
         column-gap: 2.5rem;
+    }
+
+    .lg\:gap-x-18 {
+        -moz-column-gap: 4.5rem;
+        column-gap: 4.5rem;
+    }
+
+    .lg\:gap-x-36 {
+        -moz-column-gap: 9rem;
+        column-gap: 9rem;
     }
     
     .lg\:gap-y-6 {
@@ -542,8 +582,23 @@ code {
     .md\:gap-x-6 {
         -moz-column-gap: 1.5rem;
         column-gap: 1.5rem;
-      }
+    }
+
+    .md\:gap-x-10 {
+        -moz-column-gap: 2.5rem;
+        column-gap: 2.5rem;
+    }
+
+    .md\:gap-x-18 {
+        -moz-column-gap: 4.5rem;
+        column-gap: 4.5rem;
+    }
     
+    .md\:gap-x-36 {
+        -moz-column-gap: 9rem;
+        column-gap: 9rem;
+    }
+
     .md\:gap-y-2 {
         row-gap: 0.5rem;
     }
@@ -665,6 +720,21 @@ code {
     .sm\:gap-x-6 {
     -moz-column-gap: 1.5rem;
     column-gap: 1.5rem;
+    }
+
+    .sm\:gap-x-10 {
+        -moz-column-gap: 2.5rem;
+        column-gap: 2.5rem;
+    }
+
+    .sm\:gap-x-18 {
+        -moz-column-gap: 4.5rem;
+        column-gap: 4.5rem;
+    }
+
+    .sm\:gap-x-36 {
+        -moz-column-gap: 9rem;
+        column-gap: 9rem;
     }
 
     .sm\:gap-y-1 {
