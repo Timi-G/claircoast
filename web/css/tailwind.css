@@ -491,8 +491,14 @@ video {
 .ease-in-out {
   transition: width 2s, height 2s, transform 2s;
 }
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
 .duration-\[700\] {
-  transition-duration: 2s;
+  transition-duration: 1s;
 }
 
 .left-\[708px\] {
@@ -1135,11 +1141,17 @@ video {
 .left-\[11\%\] {
   left: 11%;
 }
+.left-\[12\%\] {
+  left: 12%;
+}
 .left-\[15\%\] {
   left: 15%;
 }
 .left-\[20\%\] {
   left: 20%;
+}
+.left-\[21\%\] {
+  left: 21%;
 }
 .left-\[30\%\] {
   left: 30%;
@@ -1153,9 +1165,15 @@ video {
 .left-\[75\%\] {
   left: 75%;
 }
-.left-\[calc\(50\%\-385px\)\] {
+.left-\[calc\(100\%\-385px\)\] {
   left: calc(50% - 385px);
   }
+.left-\[calc\(50\%\-190px\)\] {
+  left: calc(50% - 190px);
+  }
+  .left-\[calc\(50\%\-357px\)\] {
+    left: calc(50% - 357px);
+    }
 .left-\[calc\(50\%\-100px\)\] {
   left: calc(50% - 100px);
   }
@@ -1721,6 +1739,12 @@ video {
 .w-60 {
   width: 15rem;
 }
+.w-120 {
+  width: 30rem;
+}
+.w-200 {
+  width: 50rem;
+}
 .w-\[43px\] {
   width: 43px;
 }
@@ -2191,6 +2215,18 @@ video {
 .size-1 {
   width: 0.5rem;
   height: 0.5rem;
+}
+.size-0\.5 {
+  width: 0.25rem;
+  height: 0.25rem;
+}
+.size-\[25\%\] {
+  width: 25%;
+  height: 25%;
+}
+.size-\[10\%\] {
+  width: 10%;
+  height: 10%;
 }
 .text-\[18px\] {
   font-size: 18px;
