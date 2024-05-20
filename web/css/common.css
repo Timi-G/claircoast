@@ -124,6 +124,16 @@ code {
         display: none;
     }
 
+    .xxxl\:flex-row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .xxxl\:flex-col {
+        display: flex;
+        flex-direction: column;
+    }
+
     .xxxl\:study-destinations {
         flex: 0 0 20%
     }
@@ -206,6 +216,16 @@ code {
         display: none;
     }
 
+    .xxl\:flex-row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .xxl\:flex-col {
+        display: flex;
+        flex-direction: column;
+    }
+
     .xxl\:study-destinations {
         flex: 0 0 20%
     }
@@ -285,6 +305,16 @@ code {
 
     .xl\:hide {
         display: none;
+    }
+
+    .xl\:flex-row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .xl\:flex-col {
+        display: flex;
+        flex-direction: column;
     }
 
     .xl\:study-destinations {
@@ -375,6 +405,16 @@ code {
 
     .lg\:hide {
         display: none;
+    }
+
+    .lg\:flex-row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .lg\:flex-col {
+        display: flex;
+        flex-direction: column;
     }
 
     .lg\:study-destinations {
@@ -485,6 +525,16 @@ code {
 
     .md\:study-destinations {
         flex: 0 0 33.3333%
+    }
+
+    .md\:flex-row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .md\:flex-col {
+        display: flex;
+        flex-direction: column;
     }
 
     .md\:text-lg {
@@ -633,6 +683,11 @@ code {
         display: flex;
         flex-direction: row;
     }
+    
+    .sm\:flex-col {
+        display: flex;
+        flex-direction: column;
+      }
 
     .sm\:study-destinations {
         flex: 0 0 33.33333%
