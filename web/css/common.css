@@ -933,6 +933,11 @@ code {
         column-gap: 2.5rem;
     }
 
+    .md\:gap-x-12 {
+        -moz-column-gap: 3rem;
+        column-gap: 3rem;
+    }
+
     .md\:gap-x-18 {
         -moz-column-gap: 4.5rem;
         column-gap: 4.5rem;
@@ -1155,6 +1160,11 @@ code {
     .sm\:gap-x-10 {
         -moz-column-gap: 2.5rem;
         column-gap: 2.5rem;
+    }
+
+    .sm\:gap-x-12 {
+        -moz-column-gap: 3rem;
+        column-gap: 3rem;
     }
 
     .sm\:gap-x-18 {
