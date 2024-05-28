@@ -1113,13 +1113,13 @@ code {
     }
 
     .md\:size-6 {
-        width: 2.0rem;
-        height: 1.5rem;
+        width: 1.5rem;
+        height: 1.0rem;
     }
 
     .md\:size-8 {
-        width: 2.75rem;
-        height: 2.0rem;
+        width: 2.0rem;
+        height: 1.5rem;
     }
 
     .md\:size-30 {
@@ -1458,13 +1458,13 @@ code {
     }
 
     .sm\:size-6 {
-        width: 2.0rem;
-        height: 1.5rem;
+        width: 1.5rem;
+        height: 1.0rem;
     }
 
     .sm\:size-8 {
-        width: 2.75rem;
-        height: 2.0rem;
+        width: 2.0rem;
+        height: 1.5rem;
     }
 
     .sm\:size-30 {
@@ -1565,7 +1565,7 @@ code {
     }
 
     .sm\:h-6 {
-    height: 1.5rem;
+        height: 1.5rem;
     }
 
     .sm\:h-8 {
