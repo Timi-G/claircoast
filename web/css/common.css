@@ -1264,6 +1264,10 @@ code {
         height: 400px;
     }
 
+    .md\:h-\[450px\] {
+        height: 450px;
+    }
+
     .md\:h-\[620px\] {
         height: 620px;
     }
