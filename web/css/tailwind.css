@@ -1169,6 +1169,12 @@ video {
 .left-\[50\%\] {
   left: 50%;
 }
+.left-\[55\%\] {
+  left: 55%;
+}
+.left-\[60\%\] {
+  left: 60%;
+}
 .left-\[75\%\] {
   left: 75%;
 }
@@ -1303,6 +1309,11 @@ video {
   margin-right: 1rem;
 }
 
+.mx-5 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 .mx-\[21px\] {
   margin-left: 21px;
   margin-right: 21px;
@@ -1413,6 +1424,9 @@ video {
 .mr-\[37px\] {
   margin-right: 37px;
 }
+.mr-6 {
+  margin-right: 2.0rem;
+}
 .mr-4 {
   margin-right: 1.5rem;
 }
@@ -1506,11 +1520,23 @@ video {
 .flex {
   display: flex;
 }
+.h-\[4500px\] {
+  height: 4500px;
+}
+.h-\[5000px\] {
+  height: 5000px;
+}
+.h-\[5500px\] {
+  height: 5500px;
+}
 .h-\[5713px\] {
   height: 5713px;
 }
 .h-6 {
   height: 1.5rem;
+}
+.h-\[400px\] {
+  height: 400px;
 }
 .h-\[800px\] {
   height: 800px;
@@ -1530,8 +1556,15 @@ video {
 .h-20 {
   height: 5rem;
 }
+
+.h-24 {
+  height: 6rem;
+}
 .h-40 {
   height: 10rem;
+}
+.h-80 {
+  height: 20rem;
 }
 .h-120 {
   height: 30rem;
@@ -1587,6 +1620,9 @@ video {
 .h-\[433px\] {
   height: 433px;
 }
+.h-\[460px\] {
+  height: 460px;
+}
 .h-\[386px\] {
   height: 386px;
 }
@@ -1602,9 +1638,6 @@ video {
 .h-\[106px\] {
   height: 106px;
 }
-.h-\[400px\] {
-  height: 400px;
-}
 .h-\[296px\] {
   height: 296px;
 }
@@ -1613,6 +1646,9 @@ video {
 }
 .h-\[103px\] {
   height: 103px;
+}
+.h-\[730px\] {
+  height: 730px;
 }
 .h-\[752px\] {
   height: 752px;
@@ -1668,6 +1704,10 @@ video {
 .h-\[946px\] {
   height: 946px;
 }
+
+.h-\[1100px\] {
+  height: 1100px;
+}
 .h-\[620px\] {
   height: 620px;
 }
@@ -1691,6 +1731,12 @@ video {
 }
 .h-\[368px\] {
   height: 368px;
+}
+.h-50 {
+  height: 12.5rem;
+}
+.h-57 {
+  height: 14.25rem;
 }
 .h-60 {
   height: 15rem;
@@ -1737,6 +1783,9 @@ video {
 }
 .w-7 {
   width: 1.75rem;
+}
+.w-7 {
+  width: 2rem;
 }
 .w-\[89px\] {
   width: 89px;
@@ -2056,6 +2105,9 @@ video {
 .w-\[80\%\] {
   width: 80%;
 }
+.w-\[70\%\] {
+  width: 70%;
+}
 .w-\[60\%\] {
   width: 60%;
 }
@@ -2148,6 +2200,9 @@ video {
 }
 .gap-y-12 {
   row-gap: 3rem;
+}
+.gap-y-24 {
+  row-gap: 6rem;
 }
 .gap-y-8 {
   row-gap: 2rem;
