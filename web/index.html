@@ -21,11 +21,11 @@
 </head>
 
 <body class="flex flex-column">
-    <div id="home" class="clair-coast flex flex-col bg-white w-[100%] h-[5713px] overflow-hidden absolute">
+    <div id="home" class="clair-coast flex flex-col gap-y-10 bg-white h-[5500px] top-0 overflow-hidden">
         <!-- <div class="flex flex-col bg-[image:var(--src)] bg-[center_center] bg-100% 100% bg-no-repeat w-6 h-6 absolute left-[708px] right-[708px] top-[2895px] bottom-[2794px] fixed" style="--src:url(../assets/53525c732e87b7a92dc802db29db4158.png)"></div> -->
-        <div class="flex flex-col bg-[image:var(--src)] bg-[center_center] bg-100% 100% bg-no-repeat bg-white w-[100%] h-[800px] overflow-hidden absolute left-0 right-0 items-center justify-center top-0">
+        <div class="flex flex-col bg-[image:var(--src)] bg-[center_center] bg-100% 100% bg-no-repeat bg-white w-[100%] sm:h-[400px] md:h-[400px] xl:h-[800px] xxl:h-[800px] overflow-hidden left-0 right-0 top-0 items-center">
             <!-- Component: Slider with indicators inside -->
-            <div class="absolute w-[100%] glide-02 top-0">
+            <div class="w-[100%] glide-02 top-0">
                 <!-- Slides -->
                 <div class="overflow-hidden rounded-[18px]" data-glide-el="track">
                     <div class="relative w-[100%] overflow-hidden p-0 whitespace-no-wrap flex flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform]">
@@ -77,14 +77,17 @@
             </script>
             <img class="w-[89px] h-[89px] absolute right-[10%] top-[117px] bottom-[594px]" src="./assets/ac97ea3159637a01d61a2752d43a184f.png" alt="alt text" />
             <!-- <div class="w-[100%] h-[304px] flex flex-col items-center gap-y-6 absolute top-[206px] bottom-[290px] sm:text-sm mx-2 my-2"> -->
-            <div class="w-[100%] h-[304px] flex flex-col items-center absolute top-25 sm:gap-y-2 md:gap-y-2 lg:gap-y-6 xl:gap-y-6 xxl:gap-y-6 xxxl:gap-y-6">
-                <h1 class="flex items-center justify-center font-bold w-[80%] xs:text-xs sm:text-sm md:text-md lg:text-md xl:text-lg xxl:text-lg xxxl:text-lg leading-[1.33] font-Lato text-white text-center tracking-[-1.2px]">
+            <div class="w-[100%] flex flex-col items-center absolute top-25 sm:gap-y-2 md:gap-y-2 lg:gap-y-6 xl:gap-y-6 xxl:gap-y-6 xxxl:gap-y-6">
+                <h1 class="flex items-center justify-center font-bold w-[80%] xs:text-xs sm:text-sm md:text-sm lg:text-md xl:text-lg xxl:text-lg xxxl:text-lg leading-[1.33] font-Lato text-white text-center tracking-[-1.2px]">
                     We offer high-quality  study abroad services to destinations like United Kingdom, Canada, Australia, United State of America &amp; Europe.
                 </h1>
-                <h1 class="flex items-center justify-center font-medium xs:text-xxs sm:text-xs md:text-sm lg:text-sm xl:text-md xxl:text-md xxxl:text-md leading-[1.33] font-Lato text-[rgb(247,247,247)] text-center mx-3">
+                <h1 class="flex items-center justify-center font-medium xs:text-xxs sm:text-xs md:text-xm lg:text-sm xl:text-md xxl:text-md xxxl:text-md leading-[1.33] font-Lato text-[rgb(247,247,247)] text-center mx-3">
                     Clair Coast Services Ltd provides professional advise and services to assist students who want to study
                     abroad in school selection, admission processing, visa application and other educational consults.
                 </h1>
+                <div class="flex bg-[rgb(24,21,255)] items-center justify-center rounded w-[30%] h-16 pt-5 pr-4 pl-4 pb-5">
+                    <h4 class="flex font-medium text-[18px] items-center justify-center text-center leading-[1.33] font-Lato text-white w-[100%] h-6 mr-px">Explore Now</h4>
+                </div>  
             </div>
             <div class="w-[100%] h-8 flex flex-row items-center justify-center text-center absolute top-[53px] bottom-[715px] mx-2 my-2 xxl:text-sm xl:text-sm lg:text-sm md:text-xs md:gap-x-4 sm:gap-x-4 lg:gap-x-6 xl:gap-x-10 xxl:gap-x-10 xxxl:gap-x-10">
                 <div class="flex flex-row items-center sm:hide md:hide justify-center gap-x-2 h-14">
@@ -109,100 +112,92 @@
                     <h2 class="flex items-center font-medium font-Lato text-white h-8 mr-px sm:text-xxs">Contact us</h2>
                 </a>
             </div>
-            <div class="flex bg-[rgb(24,21,255)] items-center justify-center rounded w-[227px] h-16 pt-5 pr-[62px] pb-5 pl-[62px] flex absolute top-130 bottom-[186px]">
-                <a>
-                    <h4 class="flex font-medium text-[18px] items-center justify-center text-center leading-[1.33] font-Lato text-white w-[100%] h-6 mr-px">Explore Now</h4>
-                </a>
-            </div>          
+            <div class="flex flex-row left-[5%] items-center justify-center absolute top-0 pt-3 gap-x-2 h-14">
+                <img class="w-10 xxxl:hide xxl:hide xl:hide lg:hide md:show sm:show" src="./assets/Claircoast_New_Logo-removebg.png" alt="alt text" />
+                <h4 class="font-bold leading-[1.14] font-Lato text-white xxl:hide xl:hide lg:hide md:show sm:show xs:text-xxs">
+                ClairCoast<br />Services Ltd
+                </h4>
+            </div>
+            <div class="flex flex-row h-12 overflow-hidden absolute items-center justify-center top-0 right-0 mr-6 gap-x-6 md:gap-x-4 xl:text-xs lg:text-xs">
+                <div class="flex flex-row h-6 gap-x-2 items-center">
+                    <a href="tel:+2349035555139" title="+2349035555139"><img class="w-6 h-6" src="./assets/34a20f373cbb0df197a2627b64bfaed7.png" alt="alt text" /></a>
+                    <div class="font-normal text-[14px] leading-[1.14] font-Lato text-white h-4 sm:hide md:hide">
+                        <a href="tel:+2349035555139">+234-903-555-5139</a>
+                    </div>
+                </div>
+                <div class="flex flex-row h-6 gap-x-2 items-center">
+                    <a href=mailto:"info@claircoast.com" title="info@claircoast.com"><img src="./assets/07e7c7c64587a90a1886f6d658c6da4b.png" alt="info@claircoast.com" /></a>
+                    <div class="font-normal text-[14px] leading-[1.14] font-Lato text-white h-4 sm:hide md:hide">
+                        <a href=mailto:"info@claircoast.com">info@claircoast.com</a>
+                    </div>
+                </div>
+                <div class="flex flex-row h-6 gap-x-2 items-center">
+                    <a href="https://www.google.com/maps/dir/?api=1&destination=Landmark+House%2C+52+-+54+Isaac+John+St%2C+Ikeja+GRA%2C+Lagos" title="Landmark House, 52-54 Isaac John St, Ikeja GRA, Lagos"><img class="w-6 h-6" src="./assets/dc4fb9ebc2653f07cb6be7ca0f72e1f9.png" alt="Landmark House, 52-54 Isaac John St, Ikeja GRA, Lagos" /></a>
+                    <div class="font-normal text-[14px] leading-[1.14] font-Lato text-white h-4 sm:hide md:hide">
+                        <a href="https://www.google.com/maps/dir/?api=1&destination=Landmark+House%2C+52+-+54+Isaac+John+St%2C+Ikeja+GRA%2C+Lagos">Landmark House, 52-54 Isaac John St, Ikeja GRA, Lagos</a>
+                    </div>
+                </div>
+                <div class="flex flex-row sm:h-8 md:h-8 lg:h-8 xl:h-8 xxl:h-8 gap-x-2 items-center">
+                    <!-- <a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                        </svg>
+                    </a>
+                    <a href="https://instagram.com/claircoast">
+                        <svg xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 448 512" class="fill-current">
+                            <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+                        </svg>
+                    </a>
+                    <a href="https://linkedin.com/company/claircoast">
+                        <svg xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 448 512" class="fill-current">
+                            <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
+                        </svg>
+                    </a>
+                    <a href="https://x.com/claircoast">
+                        <svg xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512" class="fill-current">
+                            <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path>
+                        </svg>
+                    </a> -->
+                    <a class="w-6 h-6">
+                        <img src="./assets/Facebook_colored.png" alt="Clair Coast on Facebook">
+                    </a>
+                    <a class="w-6 h-6" href="https://instagram.com/claircoast" target="_blank" rel="noopener">
+                        <img src="./assets/Instagram_colored.png" alt="Clair Coast on Instagram" />
+                    </a>
+                    <a class="w-6 h-6" href="https://linkedin.com/company/claircoast" target="_blank" rel="noopener">
+                        <img src="./assets/LinkedIn_colored.png" alt="Clair Coast on LinkedIn" />
+                    </a>
+                    <a class="w-6 h-6" href="https://x.com/claircoast" target="_blank" rel="noopener">
+                        <img src="./assets/X_colored.png" alt="Clair Coast on X" />
+                    </a>
+                    <!-- <a>
+                        <img class="w-6 h-6" src="./assets/ic_baseline-facebook.png" alt="Clair Coast on Facebook" />
+                    </a>
+                    <a href="https://instagram.com/claircoast" target="_blank" rel="noopener">
+                        <img class="w-6 h-6" src="./assets/mdi_instagram.png" alt="Clair Coast on Instagram" />
+                    </a>
+                    <a href="https://linkedin.com/company/claircoast" target="_blank" rel="noopener">
+                        <img class="w-6 h-6" src="./assets/flowbite_linkedin-solid.png" alt="Clair Coast on LinkedIn" />
+                    </a>
+                    <a href="https://x.com/claircoast" target="_blank" rel="noopener">
+                        <img class="w-6 h-6" src="./assets/X_frame.png" alt="Clair Coast on X" />
+                    </a> -->
+                <!-- <img class="w-[120px] h-6 absolute left-[637px] right-6 top-1 bottom-1" src="./assets/52d211325b6bb27980dfd195cfebf084.png" alt="alt text" /> -->
+                </div>
+            </div>        
         </div>       
         <!-- End Slider with indicators inside -->
         <!-- <div class="flex flex-col bg-[image:var(--src)] bg-[center_center] bg-100% 100% bg-no-repeat bg-white w-[100%] h-[800px] overflow-hidden absolute left-0 right-0 justify-center top-0 bottom-[4913px]" style="--src:url(../assets/934edf0f1f6e6705b3c0f4da13cd39ec.png)"> -->
         <!-- </div> -->
-        <div class="flex flex-row left-[5%] items-center justify-center absolute top-0 pt-3 gap-x-2 h-14">
-            <img class="w-10 xxxl:hide xxl:hide xl:hide lg:hide md:show sm:show" src="./assets/Claircoast_New_Logo-removebg.png" alt="alt text" />
-            <h4 class="font-bold leading-[1.14] font-Lato text-white xxl:hide xl:hide lg:hide md:show sm:show xs:text-xxs">
-            ClairCoast<br />Services Ltd
-            </h4>
-        </div>
-        <div class="flex flex-row w-[100%] h-14 overflow-hidden absolute items-center justify-center top-0 pt-3 xxxl:left-[15%] xxl:left-[15%] xl:left-[15%] lg:left-[10%] md:left-[30%] sm:left-[20%] gap-x-6 md:gap-x-4 xl:text-xs lg:text-xs">
-            <div class="flex flex-row h-6 gap-x-2 items-center">
-                <a href="tel:+2349035555139" title="+2349035555139"><img class="w-6 h-6" src="./assets/34a20f373cbb0df197a2627b64bfaed7.png" alt="alt text" /></a>
-                <div class="font-normal text-[14px] leading-[1.14] font-Lato text-white h-4 sm:hide md:hide">
-                    <a href="tel:+2349035555139">+234-903-555-5139</a>
-                </div>
-            </div>
-            <div class="flex flex-row h-6 gap-x-2 items-center">
-                <div class="w-6 h-6">
-                    <a href=mailto:"info@claircoast.com" title="info@claircoast.com"><img src="./assets/07e7c7c64587a90a1886f6d658c6da4b.png" alt="info@claircoast.com" /></a>
-                </div>
-                <div class="font-normal text-[14px] leading-[1.14] font-Lato text-white h-4 sm:hide md:hide">
-                    <a href=mailto:"info@claircoast.com">info@claircoast.com</a>
-                </div>
-            </div>
-            <div class="flex flex-row h-6 gap-x-2 items-center">
-                <a href="https://www.google.com/maps/dir/?api=1&destination=Landmark+House%2C+52+-+54+Isaac+John+St%2C+Ikeja+GRA%2C+Lagos" title="Landmark House, 52-54 Isaac John St, Ikeja GRA, Lagos"><img class="w-6 h-6" src="./assets/dc4fb9ebc2653f07cb6be7ca0f72e1f9.png" alt="Landmark House, 52-54 Isaac John St, Ikeja GRA, Lagos" /></a>
-                <div class="font-normal text-[14px] leading-[1.14] font-Lato text-white h-4 sm:hide md:hide">
-                    <a href="https://www.google.com/maps/dir/?api=1&destination=Landmark+House%2C+52+-+54+Isaac+John+St%2C+Ikeja+GRA%2C+Lagos">Landmark House, 52-54 Isaac John St, Ikeja GRA, Lagos</a>
-                </div>
-            </div>
-            <div class="flex flex-row h-6 gap-x-2 w-[20%] items-center">
-                <!-- <a>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
-                    </svg>
-                </a>
-                <a href="https://instagram.com/claircoast">
-                    <svg xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 448 512" class="fill-current">
-                        <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
-                    </svg>
-                </a>
-                <a href="https://linkedin.com/company/claircoast">
-                    <svg xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 448 512" class="fill-current">
-                        <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
-                    </svg>
-                </a>
-                <a href="https://x.com/claircoast">
-                    <svg xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512" class="fill-current">
-                        <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path>
-                    </svg>
-                </a> -->
-                <a class="w-6 h-6">
-                    <img src="./assets/Facebook_colored.png" alt="Clair Coast on Facebook">
-                </a>
-                <a class="w-6 h-6" href="https://instagram.com/claircoast" target="_blank" rel="noopener">
-                    <img src="./assets/Instagram_colored.png" alt="Clair Coast on Instagram" />
-                </a>
-                <a class="w-6 h-6" href="https://linkedin.com/company/claircoast" target="_blank" rel="noopener">
-                    <img src="./assets/LinkedIn_colored.png" alt="Clair Coast on LinkedIn" />
-                </a>
-                <a class="w-6 h-6" href="https://x.com/claircoast" target="_blank" rel="noopener">
-                    <img src="./assets/X_colored.png" alt="Clair Coast on X" />
-                </a>
-                <!-- <a>
-                    <img class="w-6 h-6" src="./assets/ic_baseline-facebook.png" alt="Clair Coast on Facebook" />
-                </a>
-                <a href="https://instagram.com/claircoast" target="_blank" rel="noopener">
-                    <img class="w-6 h-6" src="./assets/mdi_instagram.png" alt="Clair Coast on Instagram" />
-                </a>
-                <a href="https://linkedin.com/company/claircoast" target="_blank" rel="noopener">
-                    <img class="w-6 h-6" src="./assets/flowbite_linkedin-solid.png" alt="Clair Coast on LinkedIn" />
-                </a>
-                <a href="https://x.com/claircoast" target="_blank" rel="noopener">
-                    <img class="w-6 h-6" src="./assets/X_frame.png" alt="Clair Coast on X" />
-                </a> -->
-            <!-- <img class="w-[120px] h-6 absolute left-[637px] right-6 top-1 bottom-1" src="./assets/52d211325b6bb27980dfd195cfebf084.png" alt="alt text" /> -->
-            </div>
-        </div>
-        <div id="destinations" class="bg-white w-[100%] h-[958px] absolute left-0 right-0 top-[800px] bottom-[3955px]"></div>
-        <div class="w-[100%] h-[718px] flex flex-col items-center justify-center gap-y-[120px] relative left-0 right-0 top-[800px] bottom-[3955px] mt-20">
-            <div class="w-[100%] h-[386px] flex flex-col items-center gap-y-10">
-                <div class="w-[326px] h-8 flex flex-col overflow-hidden mx-[437px]">
-                    <img class="w-[100px] h-[59px] absolute items-center justify-center bottom-[690px] left-[calc(50%+115px)]" src="./assets/5ee7b84b3cc2a48ebae75d76b981e5de.png" alt="alt text" />
-                    <h2 class="flex justify-center font-bold text-2xl font-Inter text-gray-900 text-center w-[326px] h-8">
+        <div id="destinations" class="flex flex-col overflow-hidden bg-white w-[100%] sm:h-[1100px] md:h-[1100px] lg:h-[800px] xl:h-[800px] xxl:h-[800px] left-0 right-0 gap-y-6 items-center">
+            <div class="w-[100%] h-[386px] flex flex-col items-center gap-y-4">
+                <div class="w-[100%] h-20 flex flex-col gap-y-1 items-center overflow-hidden">
+                    <img class="flex w-[100px] h-12 absolute left-[calc(50%+115px)]" src="./assets/5ee7b84b3cc2a48ebae75d76b981e5de.png" alt="alt text" />
+                    <h2 class="flex font-bold text-2xl font-Inter text-gray-900 text-center w-[326px] h-8 mt-2">
                         OUR STUDY DESTINATIONS
                     </h2>
                 </div>
-                <div class="w-[100%] h-[274px] flex items-center justify-center gap-x-10 absolutecarousel-track transition-transform duration-300">
+                <div class="w-[100%] h-[206px] flex items-center gap-x-10 carousel-track transition-transform duration-300 mt-4">
                     <div class="carousel-item bg-white rounded-lg shadow-[0px_4px_8px_0px_rgba(0,0,0,0.098)] flex flex-shrink-0 flex-col relative overflow-hidden xxxl:study-destinations xxl:study-destinations xl:study-destinations lg:study-destinations md:study-destinations sm:study-destinations">
                         <img class="w-[100%] h-[80%]" src="./assets/cf79c2b22d5cee05ec4c8bfc5f262f3e.png" alt="alt text" />
                         <div class="pt-6 pr-6 pb-6 pl-6 flex items-center gap-x-4">
@@ -295,7 +290,7 @@
                     </div>
                 </div>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/glide.js"></script>
-  
+    
                 <script>
                     var glide02 = new Glide('.carousel-item', {
                         type: 'slider',
@@ -313,111 +308,113 @@
                     glide02.mount();
                 </script>
             </div>
-            <div class="w-[100%] h-[252px] flex flex-col items-center gap-y-10 mx-10">
-                <div class="w-[100%] h-40 flex flex-col items-center justify-center overflow-hidden mx-[201px]">
-                    <img class="h-11 items-center absolute left-[calc(100%-385px)] top-[440px]" src="./assets/b693da7f0544c0df9b583f1d16d727b8.png" alt="alt text" />
-                    <h2 id="institutions-header" class="flex items-center justify-center font-bold text-2xl font-Inter text-gray-900 text-center tracking-[-0.1px] h-14 w-[385px] mx-3">
+            <div class="w-[100%] h-[718px] flex flex-col items-center gap-y-2 mx-10 mt-4">
+                <div class="w-[100%] h-18 flex flex-col items-center justify-center overflow-hidden">
+                    <img class="h-11 items-center absolute left-[calc(100%-385px)]" src="./assets/b693da7f0544c0df9b583f1d16d727b8.png" alt="alt text" />
+                    <h2 id="institutions-header" class="flex items-center font-bold text-2xl font-Inter text-gray-900 text-center tracking-[-0.1px] h-14 mx-3">
                         Over 350 worldwide educational institutions are our partners
                     </h2>
                 </div>
-                <img class="w-[100%] h-[180px]" src="./assets/8eb9f2ca74c6e325b705f97b3db64016.png" alt="alt text" />
+                <img class="sm:show md:show lg:hide xl:hide xxl:hide" src="./assets/8eb9f2ca74c6e325b705f97b3db64016mobile.png" alt="alt text" />
+                <img class="h-[180px] sm:hide md:hide" src="./assets/8eb9f2ca74c6e325b705f97b3db64016.png" alt="alt text" />
             </div>
         </div>
-        <div id="about" class="bg-[rgb(241,244,255)] w-[100%] h-[800px] absolute items-center justify-center left-0 right-0 top-[1758px] bottom-[3155px]"></div>
-        <div class="w-[100%] h-[800px] flex flex-row absolute items-center justify-center top-[1758px] bottom-[3155px] gap-x-6 mx-3 mb-12">
-            <div class="flex flex-col items-center">
-                <div class="flex flex-col gap-y-4">
-                    <img class="rounded-[15px] left-[5%] sm:hide md:hide" src="./assets/4cc907609ee679b0bdead2ef4410c112.png" alt="alt text" />
-                    <img class="rounded-[15px] left-[5%] sm:hide md:hide" src="./assets/d9edff21b1a19560ddd61fbe26b83119.png" alt="alt text" />
-                </div>                
-            </div>
-            <div class="flex flex-col items-center">
-                <img class="rounded-[15px] sm:left-[5%] md:left-[5%] lg:left-[35%] xl:left-[35%] xxl:left-[35%] justify-center sm:show md:show lg:show xl:show xxl:show" src="./assets/6c3a3c0c1a9a36cd7483c2958db92cf2.png" alt="alt text" />   
-                <img class="h-[106px] left-[35%] top-[2278px] bottom-[3329px] sm:left-[5%] md:left-[5%] lg:left-[35%] xl:left-[35%] xxl:left-[35%] sm:show md:show lg:show xl:show xxl:show" src="./assets/1f5c66ffdda1afb806e4e3813ba99906.png" alt="alt text" />
-            </div>
-            <div class="w-[50%] h-[433px] flex flex-col gap-y-4 mx-3">
-                <img class="h-11 absolute top-[1913px] bottom-[3756px]" src="./assets/c84a13bff78a93fd3c0b91c256f0b21f.png" alt="alt text" />
-                <h2 class="font-bold text-2xl font-Lato text-[rgb(60,68,255)] h-8">ABOUT US</h2>
-                <h1 class="font-bold leading-[1.33] font-Lato text-[rgb(54,54,54)] tracking-[-0.72px] h-24 mr-2 xs:text-xs sm:text-sm md:text-sm lg:text-md xl:text-md xxl:text-md">
-                    You Are Welcome To Clair Coast Services Ltd
-                </h1>
-                <h4 class="font-medium leading-[1.33] font-Lato text-[rgb(103,103,103)] text-justify mt-2 mb-3 xs:text-xxs sm:text-xxs md:text-xs mr-2">
-                    With years of experience under our belt, we&#x27;ve established strong partnerships with over 350
-                    prestigious educational institutions worldwide. These partnerships encompass a diverse range of
-                    world-class universities offering educational services for foundational, graduate and post graduate
-                    programs.
-                </h4>
-                <h4 class="font-medium leading-[1.33] font-Lato text-[rgb(103,103,103)] text-justify xs:text-xxs sm:text-xxs md:text-xs mr-2">
-                    Our primary objective is to offer assistance to students who want to pursue their academic dream abroad.
-                    We provide professional guidance on selecting suitable universities, help with application process,
-                    offer visa assistance and other educational consulting services.
-                </h4>
-            </div>
-        </div>
-        <div class="bg-[rgb(255,240,240)] w-[100%] h-[321px] flex flex-col overflow-hidden absolute left-0 right-0 top-[2558px] bottom-[2834px]">
-            <div class="flex flex-col w-[100%] h-[321px] relative">
-                <div class="w-[100%] h-[321px] flex flex-col relative">
-                    <div class="flex flex-col w-[100%] h-[321px]">
-                        <div class="flex flex-col bg-[image:var(--src)] bg-[center_center] bg-100% 100% bg-no-repeat w-[1440px] h-[321px]" style="--src:url(../assets/a489acb90c57763db3d4098b12bd934b.png)"></div>
-                    </div>
+        <div id="about" class="flex flex-col overflow-hidden gap-y-12 bg-[rgb(241,244,255)] w-[100%] sm:h-[800px] md:h-[800px] lg:h-[1100px] xl:h-[1100px] xxl:h-[1100px] items-center left-0 right-0">
+            <div class="w-[100%] sm:h-[500px] md:h-[500px] lg:h-[620px] xl:h-[620px] xxl:h-[620px] flex flex-row items-center justify-center sm:gap-x-4 sm:gap-x-4 lg:gap-x-6 xl:gap-x-6 xxl:gap-x-6 mx-3 mt-10">
+                <div class="flex flex-col items-center">
+                    <div class="flex flex-col gap-y-4">
+                        <img class="rounded-[15px] left-[5%] sm:hide md:hide" src="./assets/4cc907609ee679b0bdead2ef4410c112.png" alt="alt text" />
+                        <img class="rounded-[15px] left-[5%] sm:hide md:hide" src="./assets/d9edff21b1a19560ddd61fbe26b83119.png" alt="alt text" />
+                    </div>                
                 </div>
-                <div class="w-[100%] h-[103px] flex flex-row items-center justify-center sm:gap-x-6 md:gap-x-12 lg:gap-x-18 xl:gap-x-36 xxl:gap-x-36 absolute top-[98px] bottom-[120px]">
-                    <div class="h-[103px] flex flex-col items-center gap-y-[15px]">
-                        <div class="flex flex-col h-16">
-                            <h1 class="flex justify-center font-bold xs:text-sm sm:text-md md:text-lg lg:text-lg xl:text-lg xxl:text-lg leading-[1.33] font-Lato text-[rgb(3,2,213)] text-center tracking-[-0.96px] h-16">
-                                350+
-                            </h1>
-                        </div>
-                        <h4 class="flex items-center justify-center font-normal sm:text-xs md:text-xs lg:text-sm xl:text-sm xxl:text-sm leading-[1.33] font-Lato text-[rgb(54,54,54)] text-center h-6">
-                            Partners
-                        </h4>
-                    </div>
-                    <div class="h-[103px] flex flex-col items-center gap-y-[15px]">
-                        <div class="flex flex-col h-16">
-                            <h1 class="flex justify-center font-bold xs:text-sm sm:text-md md:text-lg lg:text-lg xl:text-lg xxl:text-lg  leading-[1.33] font-Lato text-[rgb(3,2,213)] text-center tracking-[-0.96px] h-16">
-                                30+
-                            </h1>
-                        </div>
-                        <h4 class="flex items-center justify-center font-normal sm:text-xs md:text-xs lg:text-sm xl:text-sm xxl:text-sm leading-[1.33] font-Lato text-[rgb(54,54,54)] text-center tracking-[-0.1px] h-6">
-                            Enrolled Staffs
-                        </h4>
-                    </div>
-                    <div class="h-[103px] flex flex-col items-center gap-y-[15px]">
-                        <div class="flex flex-col h-16">
-                            <h1 class="flex justify-center font-bold xs:text-sm sm:text-md md:text-lg lg:text-lg xl:text-lg xxl:text-lg leading-[1.33] font-Lato text-[rgb(3,2,213)] text-center tracking-[-0.96px] h-16">
-                                20+
-                            </h1>
-                        </div>
-                        <h4 class="flex items-center justify-center font-normal sm:text-xs md:text-xs lg:text-sm xl:text-sm xxl:text-sm leading-[1.33] font-Lato text-[rgb(54,54,54)] text-center h-6">
-                            Awards
-                        </h4>
-                    </div>
-                    <div class="h-[103px] flex flex-col items-center gap-y-[15px]">
-                        <div class="flex flex-col h-16">
-                            <h1 class="flex justify-center font-bold xs:text-sm sm:text-md md:text-lg lg:text-lg xl:text-lg xxl:text-lg leading-[1.33] font-Lato text-[rgb(3,2,213)] text-center tracking-[-0.96px] h-16 top-0 bottom-0">
-                                3000+
-                            </h1>
-                        </div>
-                        <h4 class="flex items-center justify-center font-normal sm:text-xs md:text-xs lg:text-sm xl:text-sm xxl:text-sm leading-[1.33] font-Lato text-[rgb(54,54,54)] text-center h-6">
-                            Beneficiaries
-                        </h4>
-                    </div>
+                <div class="flex flex-col items-center">
+                    <img class="rounded-[15px] sm:size-4/5 sm:left-[5%] md:left-[5%] lg:left-[35%] xl:left-[35%] xxl:left-[35%] justify-center sm:show md:show lg:show xl:show xxl:show" src="./assets/6c3a3c0c1a9a36cd7483c2958db92cf2.png" alt="alt text" />   
+                    <img class="h-[106px] left-[35%] top-[2278px] bottom-[3329px] sm:left-[5%] md:left-[5%] lg:left-[35%] xl:left-[35%] xxl:left-[35%] sm:show md:show lg:show xl:show xxl:show" src="./assets/1f5c66ffdda1afb806e4e3813ba99906.png" alt="alt text" />
+                </div>
+                <div class="sm:w-[80%] md:w-[80%] lg:w-[50%] xl:w-[50%] xxl:w-[50%] h-[433px] flex flex-col gap-y-4 mx-5 justify-center">
+                    <!-- <img class="h-12 left-[55%]" src="./assets/c84a13bff78a93fd3c0b91c256f0b21f.png" alt="alt text" /> -->
+                    <h2 class="font-bold text-2xl font-Lato text-[rgb(60,68,255)] h-8">ABOUT US</h2>
+                    <h1 class="font-bold leading-[1.33] font-Lato text-[rgb(54,54,54)] tracking-[-0.72px] sm:h-12 md:h-12 lg:h-24 xl:h-24 xxl:h-24 mr-2 xs:text-xs sm:text-sm md:text-sm lg:text-md xl:text-md xxl:text-md">
+                        You Are Welcome To Clair Coast Services Ltd
+                    </h1>
+                    <h4 class="font-medium leading-[1.33] font-Lato text-[rgb(103,103,103)] text-justify mt-2 mb-3 xs:text-xxs sm:text-xxs md:text-xs">
+                        With years of experience under our belt, we&#x27;ve established strong partnerships with over 350
+                        prestigious educational institutions worldwide. These partnerships encompass a diverse range of
+                        world-class universities offering educational services for foundational, graduate and post graduate
+                        programs.
+                    </h4>
+                    <h4 class="font-medium leading-[1.33] font-Lato text-[rgb(103,103,103)] text-justify xs:text-xxs sm:text-xxs md:text-xs">
+                        Our primary objective is to offer assistance to students who want to pursue their academic dream abroad.
+                        We provide professional guidance on selecting suitable universities, help with application process,
+                        offer visa assistance and other educational consulting services.
+                    </h4>
                 </div>
             </div>
+            <div class="bg-[rgb(255,240,240)] w-[100%] h-[321px] flex flex-col justify-center overflow-hidden left-0 right-0">
+                <div class="flex flex-col w-[100%] h-[321px] relative">
+                    <div class="w-[100%] h-[321px] flex flex-col relative">
+                        <div class="flex flex-col w-[100%] h-[321px]">
+                            <div class="flex flex-col bg-[image:var(--src)] bg-[center_center] bg-100% 100% bg-no-repeat w-[100%] h-[321px]" style="--src:url(../assets/a489acb90c57763db3d4098b12bd934b.png)"></div>
+                        </div>
+                    </div>
+                    <div class="w-[100%] h-[103px] flex flex-row items-center justify-center sm:gap-x-6 md:gap-x-12 lg:gap-x-18 xl:gap-x-36 xxl:gap-x-36 absolute top-[98px] bottom-[120px]">
+                        <div class="h-[103px] flex flex-col items-center gap-y-[15px]">
+                            <div class="flex flex-col h-16">
+                                <h1 class="flex justify-center font-bold xs:text-sm sm:text-md md:text-lg lg:text-lg xl:text-lg xxl:text-lg leading-[1.33] font-Lato text-[rgb(3,2,213)] text-center tracking-[-0.96px] h-16">
+                                    350+
+                                </h1>
+                            </div>
+                            <h4 class="flex items-center justify-center font-normal sm:text-xs md:text-xs lg:text-sm xl:text-sm xxl:text-sm leading-[1.33] font-Lato text-[rgb(54,54,54)] text-center h-6">
+                                Partners
+                            </h4>
+                        </div>
+                        <div class="h-[103px] flex flex-col items-center gap-y-[15px]">
+                            <div class="flex flex-col h-16">
+                                <h1 class="flex justify-center font-bold xs:text-sm sm:text-md md:text-lg lg:text-lg xl:text-lg xxl:text-lg  leading-[1.33] font-Lato text-[rgb(3,2,213)] text-center tracking-[-0.96px] h-16">
+                                    30+
+                                </h1>
+                            </div>
+                            <h4 class="flex items-center justify-center font-normal sm:text-xs md:text-xs lg:text-sm xl:text-sm xxl:text-sm leading-[1.33] font-Lato text-[rgb(54,54,54)] text-center tracking-[-0.1px] h-6">
+                                Enrolled Staffs
+                            </h4>
+                        </div>
+                        <div class="h-[103px] flex flex-col items-center gap-y-[15px]">
+                            <div class="flex flex-col h-16">
+                                <h1 class="flex justify-center font-bold xs:text-sm sm:text-md md:text-lg lg:text-lg xl:text-lg xxl:text-lg leading-[1.33] font-Lato text-[rgb(3,2,213)] text-center tracking-[-0.96px] h-16">
+                                    20+
+                                </h1>
+                            </div>
+                            <h4 class="flex items-center justify-center font-normal sm:text-xs md:text-xs lg:text-sm xl:text-sm xxl:text-sm leading-[1.33] font-Lato text-[rgb(54,54,54)] text-center h-6">
+                                Awards
+                            </h4>
+                        </div>
+                        <div class="h-[103px] flex flex-col items-center gap-y-[15px]">
+                            <div class="flex flex-col h-16">
+                                <h1 class="flex justify-center font-bold xs:text-sm sm:text-md md:text-lg lg:text-lg xl:text-lg xxl:text-lg leading-[1.33] font-Lato text-[rgb(3,2,213)] text-center tracking-[-0.96px] h-16 top-0 bottom-0">
+                                    3000+
+                                </h1>
+                            </div>
+                            <h4 class="flex items-center justify-center font-normal sm:text-xs md:text-xs lg:text-sm xl:text-sm xxl:text-sm leading-[1.33] font-Lato text-[rgb(54,54,54)] text-center h-6">
+                                Beneficiaries
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div id="services" class="bg-white w-[100%] h-[752px] flex flex-col sm:gap-y-4 md:gap-y-4 lg:gap-y-6 xl:gap-y-6 xxl:gap-y-6 absolute left-0 right-0 top-[2879px] bottom-[2082px]">
-            <div class="flex flex-col absolute items-center justify-center w-[100%] gap-y-4">
+        <div id="services" class="bg-white w-[100%] h-[800px] flex flex-col overflow-hidden sm:gap-y-4 md:gap-y-4 lg:gap-y-6 xl:gap-y-6 xxl:gap-y-6 left-0 right-0 items-center">
+            <div class="flex flex-col items-center w-[100%] gap-y-4">
                 <div class="w-[100%] h-18 flex flex-col gap-y-1 items-center justify-center overflow-hidden">
                     <img class="h-8 absolute left-[calc(50%-110px)] mb-8" src="./assets/420b5dd05192f4fad6b6cb0243e6ca54.png" alt="alt text" />
-                    <h2 class="flex items-center justify-center font-bold text-2xl font-Lato text-[rgb(60,68,255)] h-8">
+                    <h2 class="flex items-center font-bold text-2xl font-Lato text-[rgb(60,68,255)] h-8">
                         OUR SERVICES
                     </h2>
                 </div>
-                <div class="flex justify-center font-bold sm:text-sm md:text-md lg:text-md xl:text-md xxl:text-md leading-[1.33] font-Lato text-[rgb(54,54,54)] text-center tracking-[-0.96px] w-[100%] h-8">
+                <div class="flex flex-col font-bold sm:text-sm md:text-md lg:text-md xl:text-md xxl:text-md leading-[1.33] font-Lato text-[rgb(54,54,54)] text-center tracking-[-0.96px] w-[100%] h-8 items-center">
                     <h1>At Clair Coast Services Ltd, We Offer:</h1>
                 </div>
                 
-                <div class="h-80 flex sm:flex-col md:flex-col lg:flex-row xl:flex-row justify-center sm:gap-y-6 md:gap-y-6 lg:gap-x-6 xl:gap-x-6 xxl:gap-x-6 mx-9 mt-4">
+                <div class="h-80 flex sm:flex-col md:flex-col lg:flex-row xl:flex-row sm:gap-y-6 md:gap-y-6 lg:gap-x-6 xl:gap-x-6 xxl:gap-x-6 mx-9 mt-4">
                     <div class="flex flex-row gap-x-6 lg:ml-3 xl:ml-3 xxl:ml-3">
                         <div class="bg-white rounded-lg sm:size-card md:size-card lg:size-card xl:size-card xxl:size-card shadow-[0px_4px_8px_0px_rgba(0,0,0,0.098)] pt-4 pr-4 pl-4 flex flex-col overflow-hidden">
                             <img class="rounded sm:size-30 md:size-30 lg:size-36 xl:size-36 xxl:size-36" src="./assets/b2e1bbed006aa6bf87c7ae84be92afd2.png" alt="alt text" />
@@ -470,10 +467,10 @@
                 </div>
             </div>
         </div>
-        <div class="bg-[rgb(255,240,240)] w-[100%] h-[800px] absolute left-0 right-0 top-[3631px] bottom-[1282px]">
-            <div class="w-[100%] h-[100%] flex flex-col items-center justify-center gap-y-4 absolute overflow-hidden">
+        <div class="flex overflow-hidden bg-[rgb(255,240,240)] w-[100%] h-[900px] left-0 right-0">
+            <div class="w-[100%] h-[100%] flex flex-col items-center justify-center gap-y-4 overflow-hidden">
                 <div class="w-[100%] h-18 flex flex-col gap-y-1 items-center justify-center overflow-hidden">
-                    <h2 class="flex font-bold text-2xl font-Lato text-[rgb(60,68,255)] w-[100%] items-center justify-center absolute h-8">
+                    <h2 class="flex font-bold text-2xl font-Lato text-[rgb(60,68,255)] w-[100%] items-center justify-center h-8">
                         WHAT OUR CLIENTS ARE SAYING
                     </h2>
                     <img class="w-[43px] h-8 absolute left-[calc(50%+180px)] mb-10" src="./assets/c84a13bff78a93fd3c0b91c256f0b21f.png" alt="alt text" />
@@ -591,64 +588,54 @@
             </div>
         </div>
 
-        <div id="contact" class="bg-white w-[100%] h-[946px] absolute left-0 right-0 top-[4431px] bottom-[336px]"></div>
-        <div class="flex flex-row gap-x-10 absolute w-[100%] top-[4504px] bottom-[409px] items-center justify-center">
-            <div class="flex flex-col h-[800px] items-center justify-center">
-                <form>
-                    <div class="bg-white w-[576px] h-[800px] shadow-[0px_0px_2px_0px_rgba(0,0,0,0.156)] flex flex-col items-center relative">
-                        <div class="h-[620px] flex flex-col items-center gap-y-12 my-[90px] mx-12">
+        <div id="contact" class="flex overflow-hidden h-[1100px] sm:flex-col md:flex-col lg:flex-row xl:flex-row xxl:flex-row bg-white w-[100%] items-center justify-center left-[20%] sm:gap-x-2 md:gap-x-2 lg:gap-x-10 xl:gap-x-10 xxl:gap-x-10 mx-2">
+            <div class="flex flex-col h-[800px] items-center">
+                <form class="flex items-center">
+                    <div class="bg-white h-[800px] shadow-[0px_0px_2px_0px_rgba(0,0,0,0.156)] flex flex-col items-center">
+                        <div class="h-[620px] flex flex-col items-center gap-y-12 my-[90px]">
                             <div class="h-11 flex flex-col">
+                                <img class="w-[52px] h-[52px] left-[11%]" src="./assets/a05fd8c5b1c54ea2791e1f232eb68bd0.png" alt="alt text" />
                                 <h1 class="font-semibold text-[36px] leading-[1.22] font-Inter text-[rgb(16,24,40)] tracking-[-0.72px] h-11">
                                     Get in touch with us
                                 </h1>
                             </div>
                             <div class="h-[528px] flex flex-col items-center gap-y-8">
                                 <div class="h-[448px] flex flex-col items-center gap-y-6">
-                                    <div class="h-[74px] flex justify-between items-center gap-x-2.5">
-                                        <div class="w-56 h-[74px] flex flex-col">
-                                            <div class="w-56 h-[74px] flex flex-col">
-                                                <div class="w-56 h-[74px] flex flex-col items-center gap-y-1.5">
-                                                    <div class="font-medium text-sm font-Inter text-[rgb(52,64,84)] w-56 h-5">First name</div>
-                                                    <div class="bg-white rounded-lg outline outline-[rgb(208,213,221)] outline-1 outline-offset-[-1px] w-56 h-12 shadow-[0px_1px_2px_0px_rgba(16,24,40,0.047)] pt-3 pr-4 pb-3 pl-4 flex overflow-hidden">
-                                                        <input id="firstname" placeholder="First Name">
-                                                    </div>
-                                                </div>
+                                    <div class="h-[74px] flex flex-row items-center gap-x-2 mx-3">
+                                        <div class="h-[74px] flex flex-col gap-y-1.5">
+                                            <div class="font-medium text-sm font-Inter text-[rgb(52,64,84)] h-5">First name</div>
+                                            <div class="bg-white rounded-lg outline outline-[rgb(208,213,221)] outline-1 outline-offset-[-1px] h-12 shadow-[0px_1px_2px_0px_rgba(16,24,40,0.047)] pt-3 pb-3 pr-4 pl-4 flex overflow-hidden">
+                                                <input id="firstname" placeholder="First Name">
                                             </div>
                                         </div>
-                                        <div class="w-56 h-[74px] flex flex-col">
-                                            <div class="w-56 h-[74px] flex flex-col">
-                                                <div class="w-56 h-[74px] flex flex-col items-center gap-y-1.5">
-                                                    <div class="font-medium text-sm font-Inter text-[rgb(52,64,84)] w-56 h-5">Last name</div>
-                                                    <div class="bg-white rounded-lg outline outline-[rgb(208,213,221)] outline-1 outline-offset-[-1px] w-56 h-12 shadow-[0px_1px_2px_0px_rgba(16,24,40,0.047)] pt-3 pr-4 pb-3 pl-4 flex overflow-hidden">
-                                                        <input id="lastname" placeholder="Last Name">
-                                                    </div>
-                                                </div>
+                                        <div class="h-[74px] flex flex-col gap-y-1.5">
+                                            <div class="font-medium text-sm font-Inter text-[rgb(52,64,84)] h-5">Last name</div>
+                                            <div class="bg-white rounded-lg outline outline-[rgb(208,213,221)] outline-1 outline-offset-[-1px] h-12 shadow-[0px_1px_2px_0px_rgba(16,24,40,0.047)] pt-3 pr-4 pb-3 pl-4 flex overflow-hidden">
+                                                <input id="lastname" placeholder="Last Name">
+                                            </div>
+                                        </div>  
+                                    </div>
+                                    <div class="h-[74px] flex flex-col w-[100%]">
+                                        <div class="h-[74px] flex flex-col gap-y-1.5 mx-3">
+                                            <div class="font-medium text-sm font-Inter text-[rgb(52,64,84)] h-5">Email</div>
+                                            <div class="bg-white rounded-lg outline outline-[rgb(208,213,221)] outline-1 outline-offset-[-1px] h-12 shadow-[0px_1px_2px_0px_rgba(16,24,40,0.047)] pt-3 pr-4 pb-3 pl-4 flex overflow-hidden">
+                                                <input type="email" id="email" name="email" placeholder="you@email.com">
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="w-[480px] h-[74px] flex flex-col">
-                                        <div class="w-[480px] h-[74px] flex flex-col">
-                                            <div class="w-[480px] h-[74px] flex flex-col items-center gap-y-1.5">
-                                                <div class="font-medium text-sm font-Inter text-[rgb(52,64,84)] w-[480px] h-5">Email</div>
-                                                <div class="bg-white rounded-lg outline outline-[rgb(208,213,221)] outline-1 outline-offset-[-1px] w-[100%] h-12 shadow-[0px_1px_2px_0px_rgba(16,24,40,0.047)] pt-3 pr-4 pb-3 pl-4 flex overflow-hidden">
-                                                    <input type="email" id="email" name="email" placeholder="you@email.com">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="w-[480px] h-[74px] flex flex-col">
-                                        <div class="w-[480px] h-[74px] flex flex-col">
-                                            <div class="w-[480px] h-[74px] flex flex-col items-center gap-y-1.5">
-                                                <div class="font-medium text-sm font-Inter text-[rgb(52,64,84)] w-[480px] h-5">Phone number</div>
-                                                <div class="bg-white rounded-lg outline outline-[rgb(208,213,221)] outline-1 outline-offset-[-1px] w-[480px] h-12 shadow-[0px_1px_2px_0px_rgba(16,24,40,0.047)] flex overflow-hidden">
+                                    <div class="h-[74px] flex flex-col w-[100%]">
+                                        <div class="h-[74px] flex flex-col">
+                                            <div class="h-[74px] flex flex-col gap-y-1.5 mx-3">
+                                                <div class="font-medium text-sm font-Inter text-[rgb(52,64,84)] h-5">Phone number</div>
+                                                <div class="bg-white rounded-lg outline outline-[rgb(208,213,221)] outline-1 outline-offset-[-1px] h-12 shadow-[0px_1px_2px_0px_rgba(16,24,40,0.047)] flex overflow-hidden">
                                                     <!-- <div class="w-[71px] h-12 pt-3 pr-3 pb-3 pl-4 flex items-center overflow-hidden">
                                                         <h5 class="font-normal text-base font-Inter text-[rgb(16,24,40)] w-[23px] h-6">US</h5>
                                                         <div class="flex flex-col w-5 h-5 my-0.5">
                                                             <img class="w-2.5 h-[5px] mt-2 mx-[5px] mb-[7px]" src="./assets/07d1eeff23a02abe3c1424565d8ccccb.png" alt="alt text" />
                                                         </div>
                                                     </div> -->
-                                                    <div class="w-[409px] h-12 pt-3 pr-4 pb-3 flex">
-                                                        <div class="font-normal text-base font-Inter text-[rgb(102,112,133)] w-[153px] pl-4 h-6 mr-60 absolute">
+                                                    <div class="h-12 pt-3 pr-4 pb-3 flex">
+                                                        <div class="font-normal text-base font-Inter text-[rgb(102,112,133)] pl-4 h-6">
                                                             <!-- Include necessary CSS and JavaScript files -->
                                                             <link href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.9/css/intlTelInput.css" rel="stylesheet" media="screen">
                                                             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -668,17 +655,17 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="w-[480px] h-[154px] flex flex-col">
-                                        <div class="w-[480px] h-[154px] flex flex-col">
-                                            <div class="w-[480px] h-[154px] flex flex-col items-center gap-y-1.5">
-                                                <div class="font-medium text-sm font-Inter text-[rgb(52,64,84)] w-[480px] h-5">Message</div>
-                                                <textarea class="flex flex-col bg-white rounded-lg outline outline-[rgb(208,213,221)] outline-1 outline-offset-[-1px] w-[480px] h-32 shadow-[0px_1px_2px_0px_rgba(16,24,40,0.047)] overflow-hidden pl-4 pr-4" name="message" id="message" cols="30" rows="10" placeholder="Enter your message here..."></textarea>
+                                    <div class="h-[154px] flex flex-col w-[100%]">
+                                        <div class="h-[154px] flex flex-col">
+                                            <div class="h-[154px] flex flex-col gap-y-1.5 mx-3">
+                                                <div class="font-medium text-sm font-Inter text-[rgb(52,64,84)] h-5">Message</div>
+                                                <textarea class="flex flex-col bg-white rounded-lg outline outline-[rgb(208,213,221)] outline-1 outline-offset-[-1px] h-32 shadow-[0px_1px_2px_0px_rgba(16,24,40,0.047)] overflow-hidden pl-4 pr-4" name="message" id="message" cols="30" rows="10" placeholder="Enter your message here..."></textarea>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="flex flex-col bg-[rgb(24,21,255)] rounded w-[480px] h-12">
-                                    <div class="font-medium text-[18px] leading-[1.33] font-Lato text-white w-14 h-6 my-3 mx-[212px]">
+                                <div class="flex flex-col bg-[rgb(24,21,255)] rounded items-center w-[50%] h-12 mx-3">
+                                    <div class="font-medium text-[18px] leading-[1.33] font-Lato text-white w-14 h-6 my-3">
                                         <input type="submit" value="Submit" formtarget="_blank">
                                     </div>
                                 </div>
@@ -693,84 +680,89 @@
                         }
                     });
                 </script>
-                <img class="w-[52px] h-[52px] absolute left-[11%] top-[52px] bottom-[696px]" src="./assets/a05fd8c5b1c54ea2791e1f232eb68bd0.png" alt="alt text" />
             </div>
-            <img class="w-[472px] h-[800px] items-center justify-center top-[4504px] bottom-[409px] rounded-lg sm:hide md:hide" src="./assets/b8894627db295370a6f562388b235bf6.png" alt="alt text" />
+            <img class="h-[800px] items-center justify-center rounded-lg sm:hide md:hide" src="./assets/b8894627db295370a6f562388b235bf6.png" alt="alt text" />
         </div>
 
-        <div class="flex bg-[rgb(0,5,119)] w-[100%] h-[368px] absolute top-[5377px] bottom-[-32px]">
-            <div class="flex flex-row w-[100%] h-60 items-center justify-center overflow-hidden sm:flex-col">
-                <div class="flex flex-row gap-x-14 w-[100%] h-[200px] w-[100%] items-center justify-center my-3 sm:flex-col">
-                    <div class="flex flex-col w-[15%] h-[100%] overflow-hidden top-0 bottom-10 gap-y-2">
+        <div class="flex flex-col overflow-hidden items-center gap-y-4 bg-[rgb(0,5,119)] w-[100%] sm:h-[620px] md:h-[620px] lg:h-[450px] xl:h-[450px] xxl:h-[450px]">
+            <div class="flex sm:flex-col md:flex-col lg:flex-row xl:flex-row xxl:flex-row xxxl:flex-row sm:gap-y-6 md:gap-y-6 lg:gap-x-10 xl:gap-x-10 xxl:gap-x-10 items-center mt-10">
+                <div class="flex flex-row gap-x-6">
+                    <div class="flex flex-col overflow-hidden gap-y-5 h-50">
                         <img class="w-10" src="./assets/Claircoast_New_Logo-removebg.png" alt="alt text" />
-                        <p class="font-normal text-[14px] leading-[1.14] font-Lato text-white w-[177px] h-20">
+                        <p class="font-normal text-[14px] leading-[1.14] font-Lato text-white w-[200px]">
                             We are your premier destination for expert educational consulting services tailored to students aspiring
                             to study overseas.
                         </p>
                     </div>
-                    <div class="flex flex-col h-[200px] overflow-hidden gap-y-5">
-                        <h5 class="font-bold text-base sm:size-1 font-Lato text-white w-[100%] h-6 md:size-1">
+                    <div class="flex flex-col overflow-hidden gap-y-5 h-50">
+                        <h5 class="font-bold text-base sm:size-1 font-Lato text-white h-6">
                             About
                         </h5>
-                        <div class="font-normal text-base font-Lato text-white w-[100%] h-6 sm:size-1">
+                        <div class="font-normal text-base font-Lato text-white h-6">
                             <h5>Our Services</h5>
                         </div>
-                        <div class="font-normal text-base font-Lato text-white tracking-[-0.1px] w-[100%] h-6">
+                        <div class="font-normal text-base font-Lato text-white tracking-[-0.1px] h-6">
                             <h5>Privacy Policy</h5>
                         </div>
-                        <div class="font-normal text-base font-Lato text-white w-[100%] h-6">
+                        <div class="font-normal text-base font-Lato text-white h-6">
                             <h5>Cookies</h5>
                         </div>
                     </div>
-                    <div class="flex flex-col h-[100%] gap-y-4 overflow-hidden">
-                        <h5 class="font-bold text-base font-Lato text-white tracking-[-0.1px] w-[100%] h-6">
+                </div>
+                <div class="flex flex-row gap-x-6 items-center h-50">
+                    <div class="flex flex-col gap-y-5 overflow-hidden">
+                        <h5 class="font-bold text-base font-Lato text-white tracking-[-0.1px] h-6">
                             <a href="#contact">Contact Us</a>
                         </h5>
-                        <div class="flex flex-row w-[100%] h-6 gap-x-2">
+                        <div class="flex flex-row h-6 gap-x-2">
                             <a href=mailto:"info@claircoast.com">
                                 <img class="w-6 h-6" src="./assets/07e7c7c64587a90a1886f6d658c6da4b.png" alt="alt text" />
                             </a>
-                            <h5 class="font-normal text-base font-Lato text-white w-[100%] h-6">
+                            <h5 class="font-normal text-base font-Lato text-white h-6">
                                 <a href=mailto:"info@claircoast.com">info@claircoast.com</a>
                             </h5>
                         </div>
-                        <div class="flex flex-row w-[100%] h-6 gap-x-2">
-                            <img class="w-6 h-6" src="./assets/34a20f373cbb0df197a2627b64bfaed7.png" alt="alt text" />
-                            <h5 class="font-normal text-base font-Lato text-white w-[305px] h-6">
+                        <div class="flex flex-row gap-x-2">
+                            <img class="w-6 h-6" src="./assets/34a20f373cbb0df197a2627b64bfaed7.png" alt="alt text"/>
+                            <div class="sm:show md:show lg:hide xl:hide xxl:hide font-normal text-base font-Lato text-white">
+                                <h5> <a href="tel:+2349035555139">+234-903-555-5139</a> </h5> 
+                                <h5> <a href="tel:+2349134404559">+234-913-440-4559</a> </h5>    
+                            </div>
+                            <h5 class="sm:hide md:hide font-normal text-base font-Lato text-white h-6">
                                 <a href="tel:+2349035555139">+234-903-555-5139</a> | <a href="tel:+2349134404559">+234-913-440-4559</a>
                             </h5>
                         </div>
-                        <div class="flex flex-row w-[100%] h-12 gap-x-2">
+                        <div class="flex flex-row gap-x-2">
                             <img class="w-6 h-6" src="./assets/dc4fb9ebc2653f07cb6be7ca0f72e1f9.png" alt="alt text" />
-                            <h5 class="font-normal text-base font-Lato text-white w-[315px] h-12">
+                            <h5 class="font-normal text-base font-Lato text-white sm:w-[200px] md:w-[200px] lg:w-[270px] xl:w-[270px] xxl:w-[270px]">
                                 Landmark House, 52-54 Isaac John St, Ikeja GRA, Ikeja, Lagos.
                             </h5>
                         </div>
                     </div>
-                    <div class="flex flex-col h-[100%] items-center gap-y-4 overflow-hidden">
-                        <h5 class="font-bold text-base font-Lato text-white w-[100%] h-6">
+                    <div class="flex flex-col gap-y-5 items-center overflow-hidden">
+                        <h5 class="font-bold text-base font-Lato text-white h-6">
                             Social Media Links
                         </h5>
-                        <div class="flex flex-row w-52 h-10 gap-x-4">
-                            <a class="w-8 h-8">
+                        <div class="flex sm:flex-col md:flex-col lg:flex-row xl:flex-row xxl:flex-row gap-x-2 gap-y-5">
+                            <a class="sm:size-6 md:size-6 lg:size-8 xl:size-8 xxl:size-8">
                                 <img src="./assets/Facebook_colored.png" alt="Clair Coast on Facebook">
                             </a>
-                            <a class="w-8 h-8" href="https://instagram.com/claircoast" target="_blank" rel="noopener">
+                            <a class="sm:size-6 md:size-6 lg:size-8 xl:size-8 xxl:size-8" href="https://instagram.com/claircoast" target="_blank" rel="noopener">
                                 <img src="./assets/Instagram_colored.png" alt="Clair Coast on Instagram" />
                             </a>
-                            <a class="w-8 h-8" href="https://linkedin.com/company/claircoast" target="_blank" rel="noopener">
+                            <a class="sm:size-6 md:size-6 lg:size-8 xl:size-8 xxl:size-8" href="https://linkedin.com/company/claircoast" target="_blank" rel="noopener">
                                 <img src="./assets/LinkedIn_colored.png" alt="Clair Coast on LinkedIn" />
                             </a>
-                            <a class="w-8 h-8" href="https://x.com/claircoast" target="_blank" rel="noopener">
+                            <a class="sm:size-6 md:size-6 lg:size-8 xl:size-8 xxl:size-8" href="https://x.com/claircoast" target="_blank" rel="noopener">
                                 <img src="./assets/X_colored.png" alt="Clair Coast on X" />
                             </a>
                         </div>
                         <!-- <img class="w-52 h-10 absolute left-0 right-0 top-12 bottom-0" src="./assets/1d4252a8910689f1990a2c4a8c500ec5.png" alt="alt text" /> -->
                     </div>
                 </div>
-                <div class="items-center justify-center font-normal text-[14px] leading-[1.14] font-Lato text-gray-300 w-[100%] h-4 absolute left-[484px] right-[484px] top-56 bottom-0 pt-6">
+            </div>
+            <div class="items-center justify-center text-center font-normal text-[14px] leading-[1.14] font-Lato text-gray-300 w-[100%] mt-10 h-4 bottom-0">
                     © 2024 ClairCoast. All rights reserved
-                </div>
             </div>
         </div>
         <div>
