@@ -601,6 +601,9 @@ video {
 .top-20 {
   top: 5rem;
 }
+.top-23 {
+  top: 6.5rem;
+}
 .top-25 {
   top: 7.5rem;
 }
@@ -1480,6 +1483,9 @@ video {
 }
 .mb-5 {
   margin-bottom: 1.25rem;
+}
+.mb-1 {
+  margin-bottom: 0.25rem;
 }
 .mb-2 {
   margin-bottom: 0.5rem;
