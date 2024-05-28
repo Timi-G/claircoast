@@ -367,6 +367,18 @@ code {
         height: 25rem;
     }
 
+    .xxl\:top-23 {
+        top: 6.5rem;
+    }
+
+    .xxl\:top-28 {
+        top: 9rem;
+    }
+
+    .xxl\:top-30 {
+        top: 10rem;
+    }
+
     .xxl\:w-\[200px\] {
         width: 200px;
     }
@@ -476,6 +488,14 @@ code {
     .xxl\:gap-y-10 {
         -moz-row-gap: 2.5rem;
         row-gap: 2.5rem;
+    }
+
+    .xxl\:mr-6 {
+        margin-right: 2.0rem;
+    }
+
+    .xxl\:mr-8 {
+        margin-right: 2.5rem;
     }
 }
 
@@ -601,6 +621,18 @@ code {
         height: 25rem;
     }
 
+    .xl\:top-23 {
+        top: 6.5rem;
+    }
+
+    .xl\:top-28 {
+        top: 9rem;
+    }
+
+    .xl\:top-30 {
+        top: 10rem;
+    }
+
     .xl\:w-\[200px\] {
         width: 200px;
     }
@@ -711,6 +743,14 @@ code {
     .xl\:gap-y-10 {
         -moz-row-gap: 2.5rem;
         row-gap: 2.5rem;
+    }
+
+    .xl\:mr-6 {
+        margin-right: 2.0rem;
+    }
+
+    .xl\:mr-8 {
+        margin-right: 2.5rem;
     }
 }
 
@@ -834,6 +874,18 @@ code {
     .lg\:size-card {
         width: 14rem;
         height: 26rem;
+    }
+
+    .lg\:top-23 {
+        top: 6.5rem;
+    }
+
+    .lg\:top-28 {
+        top: 9rem;
+    }
+
+    .lg\:top-30 {
+        top: 10rem;
     }
 
     .lg\:w-\[200px\] {
@@ -964,6 +1016,14 @@ code {
         row-gap: 2.5rem;
     }
 
+    .lg\:mr-6 {
+        margin-right: 2.0rem;
+    }
+
+    .lg\:mr-8 {
+        margin-right: 2.5rem;
+    }
+
 }
 
 @media (max-width: 991px) {
@@ -1075,6 +1135,14 @@ code {
     .md\:size-1\/2 {
         width: 50%;
         height: 50%;
+    }
+
+    .md\:top-23 {
+        top: 6.5rem;
+    }
+
+    .md\:top-28 {
+        top: 9rem;
     }
 
     .md\:left-0 {
@@ -1282,6 +1350,18 @@ code {
         -moz-row-gap: 2.5rem;
         row-gap: 2.5rem;
     }
+
+    .md\:mr-4 {
+        margin-right: 1.5rem;
+    }
+
+    .md\:mr-6 {
+        margin-right: 2.0rem;
+    }
+
+    .md\:mr-8 {
+        margin-right: 2.5rem;
+    }
 }
 
 @media (max-width: 767px) {
@@ -1410,6 +1490,10 @@ code {
     .sm\:size-1 {
         width: 100%;
         height: 100%;
+    }
+
+    .sm\:top-23 {
+        top: 6.5rem;
     }
 
     .sm\:left-\[1\%\] {
@@ -1601,6 +1685,18 @@ code {
     .sm\:gap-y-10 {
         -moz-row-gap: 2.5rem;
         row-gap: 2.5rem;
+    }
+
+    .sm\:mr-4 {
+        margin-right: 1.5rem;
+    }
+
+    .sm\:mr-6 {
+        margin-right: 2.0rem;
+    }
+
+    .sm\:mr-8 {
+        margin-right: 2.5rem;
     }
 
     .sm\:pt-3 {
