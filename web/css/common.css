@@ -223,6 +223,54 @@ code {
         height: 23rem;
     }
 
+    .xxxl\:h-6 {
+        height: 1.5rem;
+    }
+
+    .xxxl\:h-8 {
+        height: 2rem;
+    }
+
+    .xxxl\:h-12 {
+        height: 3rem;
+    }
+
+    .xxxl\:h-24 {
+        height: 6rem;
+    }
+
+    .xxxl\:h-\[200px\] {
+        height: 200px;
+    }
+
+    .xxxl\:h-\[368px\] {
+        height: 368px;
+    }
+
+    .xxxl\:h-\[386px\] {
+        height: 386px;
+    }
+
+    .xxxl\:h-\[450px\] {
+        height: 400px;
+    }
+
+    .xxxl\:h-\[620px\] {
+        height: 620px;
+    }
+
+    .xxxl\:h-\[800px\] {
+        height: 800px;
+    }
+
+    .xxxl\:h-\[900px\] {
+        height: 900px;
+    }
+
+    .xxxl\:h-\[1100px\] {
+        height: 1100px;
+    }
+
     .xxxl\:gap-x-4 {
         -moz-column-gap: 1.0rem;
         column-gap: 1.0rem;
@@ -274,6 +322,14 @@ code {
 
     .xxxl\:mr-8 {
         margin-right: 2.5rem;
+    }
+
+    .xxxl\:mt-6 {
+        margin-top: 2rem;
+    }
+
+    .xxxl\:top-30 {
+        top: 10rem;
     }
 }
 
@@ -360,14 +416,19 @@ code {
         line-height: 1rem;
     }
 
-    .xxl\:size-5 {
-        width: 1.5rem;
-        height: 1.25rem;
+    .xxl\:size-3 {
+        width: 1.0rem;
+        height: 0.75rem;
+    }
+    
+    .xxl\:gap-x-5 {
+        width: 1.3rem;
+        height: 0.9rem;
     }
 
     .xxl\:size-6 {
-        width: 2.0rem;
-        height: 1.5rem;
+        width: 1.5rem;
+        height: 1.0rem;
     }
 
     .xxl\:size-8 {
@@ -533,6 +594,10 @@ code {
     .xxl\:mr-8 {
         margin-right: 2.5rem;
     }
+
+    .xxl\:mt-6 {
+        margin-top: 2rem;
+    }
 }
 
 @media (max-width: 1399px) {
@@ -632,14 +697,19 @@ code {
         column-gap: 1rem;
     }
 
-    .xl\:size-5 {
-        width: 1.5rem;
-        height: 1.25rem;
+    .xl\:size-3 {
+        width: 1.0rem;
+        height: 0.75rem;
+    }
+    
+    .xl\:gap-x-5 {
+        width: 1.3rem;
+        height: 0.9rem;
     }
 
     .xl\:size-6 {
-        width: 2.0rem;
-        height: 1.5rem;
+        width: 1.5rem;
+        height: 1.0rem;
     }
 
     .xl\:size-8 {
@@ -806,6 +876,11 @@ code {
     .xl\:mr-8 {
         margin-right: 2.5rem;
     }
+
+    .xl\:mt-6 {
+        margin-top: 2rem;
+    }
+
 }
 
 @media (max-width: 1199px) {
@@ -905,14 +980,19 @@ code {
         line-height: 1rem;
     }
 
-    .lg\:size-5 {
-        width: 1.5rem;
-        height: 1.25rem;
+    .lg\:size-3 {
+        width: 1.0rem;
+        height: 0.75rem;
+    }
+    
+    .lg\:gap-x-5 {
+        width: 1.3rem;
+        height: 0.9rem;
     }
 
     .lg\:size-6 {
-        width: 2.0rem;
-        height: 1.5rem;
+        width: 1.5rem;
+        height: 1.0rem;
     }
 
     .lg\:size-8 {
@@ -1096,6 +1176,10 @@ code {
         margin-right: 2.5rem;
     }
 
+    .lg\:mt-6 {
+        margin-top: 2rem;
+    }
+
 }
 
 @media (max-width: 991px) {
@@ -1180,8 +1264,8 @@ code {
     }
     
     .md\:size-5 {
-        width: 1.5rem;
-        height: 1.25rem;
+        width: 1.3rem;
+        height: 0.9rem;
     }
 
     .md\:size-6 {
